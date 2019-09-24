@@ -1,4 +1,4 @@
-# PHP Wrapper
+# PHP Version Automatic Chooser
 
 ![](orange35-phpv-usage.gif)
 
