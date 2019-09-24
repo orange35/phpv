@@ -9,7 +9,6 @@
 - .phpv
 
 **For example:**
-s
 
 When you run the following command
     
