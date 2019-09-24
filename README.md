@@ -97,8 +97,7 @@ The commands like **php71**, **php72** and so on must be available in your syste
         $ php -v
         PHP 7.3.9 (cli) ...
 
-##Notes
-
+## Notes
 ***1** - The **.htaccess_dev** file may be used (if exists) instead of .htaccess if you have the following Apache configuration:
     
         AccessFileName .htaccess_dev .htaccess
