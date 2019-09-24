@@ -24,11 +24,15 @@ else
     fi
 fi
 if [ -z "$php" ]; then
-    php=$(which -a php | grep -v "$HOME/" | head -n 1)
-    if [ "$0" == "$php" ] ; then
-        ## avoid recursion
-        php=""
+    if [ ! -z "$PHPV_DEFAULT" ] ; then
+        php="$PHPV_DEFAULT"
+    else
+        php=$(which -a php | grep -v "$HOME/" | head -n 1)
     fi
+fi
+if [ "$0" == "$php" ] ; then
+    ## avoid recursion
+    php=""
 fi
 if [ -z "$php" ]; then
     echo "PHPV: can't find PHP CLI"

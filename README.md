@@ -40,6 +40,11 @@ and executes `php71 -v` instead of `php -v`
 
 The commands like **php71**, **php72** and so on must be available in your system. If not, please see the installation notes #4-6 below.
 
+If there is no PHP version specified in the .phpv, .htaccess_dev or .htaccess file then either:
+- a version specified in the PHPV_DEFAULT env variable will be used (if exists)
+- a default php version of your system will be used (if exists), e.g.: /usr/bin/php
+- the **PHPV: can't find PHP CLI** error message will be thrown
+
 ----
 ## Installation
 
