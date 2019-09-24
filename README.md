@@ -76,7 +76,7 @@ The commands like **php71**, **php72** and so on must be available in your syste
         $ php -v
         PHP 7.0.33 (cli) ...
     
-2.  create an .htaccess_dev file if doesn't exists
+2.  create an .htaccess_dev file if doesn't exist
 
         cp .htaccess .htaccess_dev
             
@@ -98,6 +98,7 @@ The commands like **php71**, **php72** and so on must be available in your syste
         PHP 7.3.9 (cli) ...
 
 ##Notes
+
 ***1** - The **.htaccess_dev** file may be used (if exists) instead of .htaccess if you have the following Apache configuration:
     
         AccessFileName .htaccess_dev .htaccess
