@@ -1,4 +1,4 @@
-# PHP Version Automatic Chooser
+# Automatic PHP CLI Version 
 
 ![](orange35-phpv-usage.gif)
 
