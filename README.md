@@ -1,5 +1,7 @@
 # PHP Wrapper
 
+![](orange35-phpv-usage.gif)
+
 **orange35/phpv** is a php wrapper which replaces the **php** command and executes a PHP CLI version specified in the one of the following files:
 
 - .htaccess_dev ***1**
@@ -7,6 +9,7 @@
 - .phpv
 
 **For example:**
+s
 
 When you run the following command
     
