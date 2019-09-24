@@ -1,0 +1,16 @@
+{
+    "name": "orange35/phpv",
+    "description": "PHP Wrapper to run a correct PHP CLI version specified in the .htaccess_dev, .htaccess or .phpv file",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yurii Tvardyi",
+            "email": "riddler@orange35.com"
+        }
+    ],
+    "require": {},
+    "bin" : [
+        "php"
+    ]
+}
